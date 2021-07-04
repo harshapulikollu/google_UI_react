@@ -1,7 +1,7 @@
 import './SearchLinks.css';
 
 export default function SearchLinks() {
-    const results = [{title: 'Download resume', url:'/assets/Harsha_resume.pdf', desc:'Download Harsha Pulikollu\'s latest resume by clicking here', type:'pdf'},
+    const results = [{title: 'Download resume', url:'https://raw.githubusercontent.com/harshapulikollu/harsha_portfolio/main/public/assets/Harsha_resume.pdf', desc:'Download Harsha Pulikollu\'s latest resume by clicking here', type:'pdf'},
     {title:'Harsha Pulikollu - Full Stack Developer... - LinkedIn', url:'https://www.linkedin.com/in/harshapulikollu/', desc:'Full-stack developer. JavaScript, React, Node.js, Java... Nellore, India.', type:'link'},
 {title:'harshapulikollu (Harsha Pulikollu) · GitHub', url:'https://github.com/harshapulikollu/', desc:'Harsha Pulikollu harshapulikollu.. Working from home. Follow. Associate professional application delivery at DXC Technology. Studied B.Tech computer ...', type:'link'},
 {title:'Harsha pulikollu - Stack Overflow', url:'https://stackoverflow.com/users/10250044/harsha-pulikollu', desc:'Harsha pulikollu. 1,712 ○2 ○1. Profile · Activity. Checkout all the answers and my activity in stack overflow...', type:'link'},

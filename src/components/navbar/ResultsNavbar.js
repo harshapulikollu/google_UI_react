@@ -4,7 +4,7 @@ import SearchIcon from '@material-ui/icons/Search';
 export default function ResultsNavbar() {
 
     const handleHomeClick = (e) => {
-        window.location.href = '/';
+        window.location.href = '/harsha_portfolio/';
     }
 
     return <div className="results-navbar">

@@ -9,8 +9,11 @@ function App() {
       <Route exact path="/">
       <HomePage />
       </Route>
-      <Route path="/harshapulikollu">
+      <Route exact path="/bio">
       <ResusltsPage />
+      </Route>
+      <Route>
+        <div>oops</div>
       </Route>
     </Switch>
     </div>
