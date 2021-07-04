@@ -1,13 +1,18 @@
+import './AutoCompleteModal.css';
+import ScheduleIcon from '@material-ui/icons/Schedule';
+
 export default function AutoCompleteModal(props) {
-    console.log("Auto complete modal ", props);
-    if(!props.open){
+
+    const recommendations = [{ text: "Harsha Pulikollu", url: "/harshapulikollu" }, { text: "Harsha GitHub", url: "https://www.github.com/harshapulikollu" }, { text: "Harsha linkedIn", url: "https://www.linkedin.com/in/harshapulikollu/" }];
+
+    if (!props.open) {
         return null;
     }
-    return <div style={{backgroundColor:'white'}}>{[1,2,3,4,5,6,7,8,9,0].map(itm =>{
-        return <div>{props.input}</div>
+
+    return <div className='auto-complete-main'>{recommendations.map((itm, idx) => {
+        return <a key={idx} className="recommendation-item" href={itm.url}>
+            <ScheduleIcon className="icon" color="gray" fontSize="small" />
+            {itm.text}</a>
     })}</div>
 }
 
-//style={{height: '300px', backgroundColor:'white',  position: 'absolute', zIndex: 1, top: '100%',
-// left: 0,
-// right: 0}}

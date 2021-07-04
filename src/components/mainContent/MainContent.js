@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef} from 'react';
 import './MainContent.css';
 import LanguageLinks from './languageLinks/LanguageLinks';
 import SearchIcon from '@material-ui/icons/Search';
@@ -8,8 +8,26 @@ export default function MainContent() {
     const [showModal, toggleModal] = useState(false);
     const [inputValue, setInputValue] = useState('');
 
+    const refInput = useRef();
+
+    useEffect(() => {
+        const listener = (e) => {
+            if(e.code === 'Enter' || e.code === 'NumpadEnter'){
+                e.preventDefault();
+                let data = localStorage.getItem('recentSearches') || [];
+                let newData = [data,refInput.current.value];
+                localStorage.setItem('recentSearches', newData);
+            }
+        } 
+        document.addEventListener('keydown', listener);
+
+        return() => {
+            document.removeEventListener('keydown', listener);
+        }
+    }, [])
+
+
     const onInputActive = (e) => {
-        setInputValue(e.target.value);
         if (e.target.value === '') {
             toggleModal(false);
         } else {
@@ -31,6 +49,9 @@ export default function MainContent() {
                     autoComplete="off"
                     autoCorrect="off"
                     autoFocus
+                    value={inputValue}
+                    ref={refInput}
+                    onChange={(e) => setInputValue(e.target.value)}
                     onClick={onInputActive}
                     onKeyUp={onInputActive} />
                 </div>

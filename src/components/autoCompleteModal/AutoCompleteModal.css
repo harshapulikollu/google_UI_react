@@ -1,0 +1,28 @@
+.auto-complete-main {
+    background-color: white;
+    height: 300px;
+    top: 100%;
+}
+
+.recommendation-item {
+    padding-top: 10px;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+    color: #52188C;
+    text-decoration: none;
+}
+
+.recommendation-item:hover {
+    background-color: #eeeeee;;
+}
+
+.icon {
+    font-size: 8px;
+    color: #9aa0a6;
+    padding-left: 2px;
+    padding-right:5px;
+    margin: 0;
+}
