@@ -1,7 +1,13 @@
-# Getting Started with Create React App
+# Harsha Pulikollu Portfolio 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Developed this project to showcase my skills and also to have a portfolio site which mimics Google UI [checkout here](https://harshapulikollu.github.io/harsha_portfolio/#/harsha_portfolio/bio).
 
+This portfolio which mimics google search UI has two pages
+[Home page](https://harshapulikollu.github.io/harsha_portfolio/#/) where you can type any input and will show suggestions of my details.
+
+[My deatils page](https://harshapulikollu.github.io/harsha_portfolio/#/harsha_portfolio/bio) In this page mimics Google search results UI, displays my breif intro and along with links and description to my [Github](https://github.com/harshapulikollu/), [LinkedIn](https://www.linkedin.com/in/harshapulikollu/), [StackOverflow](https://stackoverflow.com/users/10250044/harsha-pulikollu) etc.
+
+This was developed only for educational purposes and all images used were freely available on web.
 ## Available Scripts
 
 In the project directory, you can run:
