@@ -1,0 +1,48 @@
+.breif-info {
+    width: 35%;
+    border-radius: 8px;
+    border: 1px solid #DFE1E5;
+    background-color: white;
+}
+
+.breif-info .header {
+    height: 150px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.name-work {
+    display: flex;
+    flex-direction: column;
+}
+.name-work .name {
+    font-size: 24px;
+}
+
+.name-work .work {
+    color: gray;
+}
+
+.breif-info .header img {
+    border-radius: 50%;
+}
+
+.horiz-st-line {
+    background-color: #EBEBEB;
+    height: 1px;
+}
+
+.text {
+    padding: 10px;
+}
+
+.social-links {
+    padding: 10px;
+}
+
+.social-links a {
+    cursor: pointer;
+    color: #4285F4;
+}
