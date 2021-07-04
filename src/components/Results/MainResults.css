@@ -5,3 +5,13 @@
     padding: 25px;
     align-items: flex-start;
 }
+
+@media screen and (max-width: 900px){
+    .results-main {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

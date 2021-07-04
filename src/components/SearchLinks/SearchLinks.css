@@ -1,6 +1,7 @@
 .search-links-div {
     width: 60%;
     margin-right: 25px;
+    order:1;
 }
 
 .search-links-div .item {
@@ -37,4 +38,12 @@
     text-decoration: none;
     font-size: 14px;
     margin-top: 3px;
+}
+
+
+@media screen and (max-width: 900px){
+    .search-links-div {
+        width: 90%;
+        order:2;
+    }
 }

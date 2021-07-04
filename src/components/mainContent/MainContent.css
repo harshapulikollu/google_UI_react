@@ -65,3 +65,36 @@ button:hover {
     font-size: 8px;
     padding-right: 10px;
 }
+
+
+@media screen and (max-width: 560px){
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        position: relative;
+        height: 100%;
+    }
+
+    .main-content .form {
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 380px){
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        position: relative;
+        height: 100%;
+    }
+
+    .main-content .form {
+        margin-top: 35%;
+        width: 80%;
+    }
+}

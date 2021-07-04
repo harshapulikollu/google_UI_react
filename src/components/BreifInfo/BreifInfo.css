@@ -3,6 +3,7 @@
     border-radius: 8px;
     border: 1px solid #DFE1E5;
     background-color: white;
+    order: 2;
 }
 
 .breif-info .header {
@@ -45,4 +46,16 @@
 .social-links a {
     cursor: pointer;
     color: #4285F4;
+}
+
+
+@media screen and (max-width: 900px){
+    .breif-info {
+        width: 90%;
+        border-radius: 8px;
+        border: 1px solid #DFE1E5;
+        background-color: white;
+        order: 1;
+        margin-bottom: 20px;
+    }
 }
