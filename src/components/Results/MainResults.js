@@ -1,10 +1,10 @@
 import './MainResults.css';
 import BreifInfo from '../BreifInfo/BreifInfo';
+import SearchLinks from '../SearchLinks/SearchLinks';
 
 export default function MainResults() {
-    return ( <div className="results-main">
-        {/*add links url here */}
-        <div style={{width: '60%'}}></div>
-            <BreifInfo />
+    return (<div className="results-main">
+        <SearchLinks />
+        <BreifInfo />
     </div>);
 }
