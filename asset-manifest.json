@@ -1,22 +1,17 @@
 {
   "files": {
-    "main.css": "/harsha_portfolio/static/css/main.3dc56b45.chunk.css",
-    "main.js": "/harsha_portfolio/static/js/main.c73ea60d.chunk.js",
-    "main.js.map": "/harsha_portfolio/static/js/main.c73ea60d.chunk.js.map",
+    "main.css": "/harsha_portfolio/static/css/main.22901b3d.chunk.css",
+    "main.js": "/harsha_portfolio/static/js/main.214a4d3d.chunk.js",
     "runtime-main.js": "/harsha_portfolio/static/js/runtime-main.aa62dd9a.js",
-    "runtime-main.js.map": "/harsha_portfolio/static/js/runtime-main.aa62dd9a.js.map",
     "static/js/2.7022eecd.chunk.js": "/harsha_portfolio/static/js/2.7022eecd.chunk.js",
-    "static/js/2.7022eecd.chunk.js.map": "/harsha_portfolio/static/js/2.7022eecd.chunk.js.map",
     "static/js/3.dd67a894.chunk.js": "/harsha_portfolio/static/js/3.dd67a894.chunk.js",
-    "static/js/3.dd67a894.chunk.js.map": "/harsha_portfolio/static/js/3.dd67a894.chunk.js.map",
     "index.html": "/harsha_portfolio/index.html",
-    "static/css/main.3dc56b45.chunk.css.map": "/harsha_portfolio/static/css/main.3dc56b45.chunk.css.map",
     "static/js/2.7022eecd.chunk.js.LICENSE.txt": "/harsha_portfolio/static/js/2.7022eecd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.aa62dd9a.js",
     "static/js/2.7022eecd.chunk.js",
-    "static/css/main.3dc56b45.chunk.css",
-    "static/js/main.c73ea60d.chunk.js"
+    "static/css/main.22901b3d.chunk.css",
+    "static/js/main.214a4d3d.chunk.js"
   ]
 }
