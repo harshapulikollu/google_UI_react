@@ -12,7 +12,7 @@ export default function BreifInfo() {
         <div className="horiz-st-line"></div>
         <div className="text">
             <p>
-                Harsha Pulikollu is a 24 years old full stack developer currenlty working at DXC Technology. 
+                Harsha Pulikollu is a 26 years old full stack developer currenlty working at MoneyPlanned. 
                 I'm tech entusiastic and loves coding and developing apps and webapps. 
             </p>
             <p>Harsha familiar with <strong>Flutter</strong>, <strong>React</strong>, <strong>Node.js</strong>, <strong>Javascript</strong>, <strong>GoLang</strong> frameworks and programing languages.</p>
